@@ -10,10 +10,11 @@ input2 = parseInt(input2)
 input3 = parseInt(input3)
 
 let suma = input1 + input2 + input3
+
 if (suma > 10) {
-    document.querySelector("h3").innerHTML = "Tienes muchos items!"
+    document.querySelector("h3").innerHTML = "Tienes " + suma + ". Sólo puedes seleccionar hasta 10!"
     }else{
-        document.querySelector("h3").innerHTML = "Sigue así, vas bien!"
+        document.querySelector("h3").innerHTML = "Tienes " + suma + ". Sigue así, vas bien!"
     }
 
 })
